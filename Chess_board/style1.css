@@ -1,12 +1,7 @@
 table {
       border-collapse: collapse;
-      margin: 20px auto;
+      margin: auto;
     }
-    td {
-      width: 60px;
-      height: 60px;
-    }
-    tr:nth-child(odd) td:nth-child(even),
-    tr:nth-child(even) td:nth-child(odd) {
-      background: black;
-    }
+.black{
+    background-color: black;
+}
