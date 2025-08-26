@@ -1,0 +1,20 @@
+body{
+    background-image: url("pngtree-my-resume-background-material-picture-image_1117680.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    line-height: 1.6;
+    color: #333;
+}
+#logo{
+    height: 80px;
+    width: 80px;
+}
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
