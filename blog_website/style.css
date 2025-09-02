@@ -1,20 +1,101 @@
 body{
-    background-image: url("pngtree-my-resume-background-material-picture-image_1117680.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fdfdfd;
     line-height: 1.6;
-    color: #333;
+    color: black;
+    box-sizing: border-box;
 }
 #logo{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
 }
 section {
   max-width: 1000px;
   margin: auto;
   padding: 40px 20px;
+}
+
+header {
+  background-color: black;
+  padding: 10px 20px;
+  position: static;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 4px;
+  overflow: hidden;
+  background: white;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 180px;
+}
+
+.search-box .material-symbols-outlined {
+  padding: 8px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+footer div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+footer div a:hover {
+  background-color: rgb(79, 79, 243);
+}
+
+footer div a img {
+  filter: invert(1);
+  height: 50px;
+  width: 50px;
 }
